@@ -56,7 +56,7 @@ lunch omni_j2xlte-eng
 ```
 9: The commands above got everything ready for compiling.
 
-10: Now for the finishing blow:
+10: Lastly:
 ```bash
 mka recoveryimage
 ```
