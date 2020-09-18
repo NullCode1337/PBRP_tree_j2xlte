@@ -44,7 +44,7 @@ cd samsung
 ```bash
 git clone https://github.com/Ishaq06/PBRP_tree_j2xlte.git
 ```
-7: After that you will see a PBRP_tree_j2xlte folder in your "samsung" folder. Rename the folder to "j2xlte" without quotes.
+7: After that you will see a PBRP_tree_j2xlte folder in your "samsung" folder. Rename the folder to "j2xlte" so that the folder structure looks like this: ~/anything/device/samsung/j2xlte.
 
 8: Now close that terminal and open a fresh terminal [This is real talk, because we will start building. Pay attention]
 ```bash
