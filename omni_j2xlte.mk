@@ -1,11 +1,9 @@
-# Inherit some common Omni stuff.
+$(call inherit-product, vendor/pb/config/gsm.mk)
+
 $(call inherit-product, vendor/pb/config/common.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit Telephony packages
 $(call inherit-product, build/target/product/full_base_telephony.mk)
-
-# Inherit language packages
 $(call inherit-product, build/target/product/languages_small.mk)
 
 # Device identifier. This must come after all inclusions
