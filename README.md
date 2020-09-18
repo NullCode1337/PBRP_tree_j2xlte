@@ -72,10 +72,10 @@ Please make sure to update tests as appropriate.
 SebaUbuntu (For his amazing Baseline Tree generator which I modified)
 
 
-@aditya766 on XDA (For using his disgusting buggy TWRP as base kernel; DTB and recovery.fstab {but hey at least it boots and works})
-
-
 ME (For obvious reasons)
+
+
+djeman on Github (because I stole some of his j3xnlte BoardConfig props)
 
 
 And of course, Pitch Black Recovery Project Team for building this amazing project.
