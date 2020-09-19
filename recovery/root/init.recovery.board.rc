@@ -1,3 +1,4 @@
+
 on cali
 #	mount_all /etc/recovery.fstab
 #	start recovery
