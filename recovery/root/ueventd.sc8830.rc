@@ -1,3 +1,4 @@
+
 /dev/sprd_dma_copy      0660     system      audio
 /dev/sprd_scale         0660     system      audio
 /dev/sprd_rotation      0660     system      audio
@@ -46,9 +47,11 @@
 /dev/vbpipe0            0660     system  system
 /dev/vbpipe6            0660     media   audio
 /dev/stty_lte*            0660     radio       system
+/dev/stty_lte12            0660     system    loop_radio
 /dev/slog_lte             0660     system      system
 /dev/sdiag_lte             0660     system      system
 /dev/spipe_lte*           0660     system      system
+/dev/spipe_lte9           0660     radio      system
 /dev/spipe_lte5           0660     radio      system
 /dev/spipe_lte4         0660     media       audio
 /dev/spipe_lte6         0660     media       audio
