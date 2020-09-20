@@ -1,5 +1,3 @@
-$(call inherit-product, vendor/pb/config/gsm.mk)
-
 $(call inherit-product, vendor/pb/config/common.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
