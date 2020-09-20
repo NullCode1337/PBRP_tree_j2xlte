@@ -90,4 +90,4 @@ TW_EXCLUDE_TWRPAPP := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone1/temp"
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-PB_TORCH_PATH := /sys/class/leds/flash
+PB_TORCH_PATH := /sys/class/leds/flash/flash
