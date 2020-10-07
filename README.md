@@ -1,7 +1,7 @@
 # PBRP For the Galaxy J2 2016
 This minimal device tree is all you need to compile Pitch Black Recovery Project for yourself! Please credit me (@NullCode on XDA) and all the appropriate people if you use it in one of your builds. 
 
-## BUGS 
+## Bugs
 Touch is buggy [kernel side bug]
 
 Lag [due to low RAM]
