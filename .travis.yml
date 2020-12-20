@@ -1,0 +1,33 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: fr3akyphantom/droid-builder:latest
+    environment:
+      MANIFEST_BRANCH: 'android-6.0'
+      VERSION: '3.0.0'
+      MAINTAINER: '@NullCode'
+      VENDOR: 'samsung'
+      CODENAME: 'j2xlte'
+      FLAVOR: 'eng'
+      PB_OFFICIAL: 'true'
+      CHANGELOG: |
+        - Updated kernel
+        - Fixed bootloop issue on some devices
+        - Updated some config & vendor blobs
+    working_directory: /home/builder/pitchblack
+    steps:
+      - run:
+          name: AIO Build
+          command: |
+            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/build.sh
+            source build.sh
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: 'android-6.0'
+          context: org-global
