@@ -51,22 +51,16 @@ cd samsung
 ```
 6: Now git clone my repository:
 ```bash
-git clone https://github.com/Ishaq06/PBRP_tree_j2xlte.git
+git clone https://github.com/Ishaq06/PBRP_tree_j2xlte.git j2xlte/
 ```
-7: After that you will see a PBRP_tree_j2xlte folder in your "samsung" folder. Rename the folder to "j2xlte" so that the folder structure looks like this: ~/anything/device/samsung/j2xlte.
 
-8: Now close that terminal and open a fresh terminal [This is real talk, because we will start building. Pay attention]
+7: Now close that terminal and open a fresh terminal [This is real talk, because we will start building. Pay attention]
 ```bash
 cd ~/PBRP
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL="C"
 lunch omni_j2xlte-eng
-```
-9: The commands above got everything ready for compiling.
-
-10: Lastly:
-```bash
 mka recoveryimage
 ```
 
