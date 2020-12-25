@@ -62,7 +62,7 @@ git clone https://github.com/Ishaq06/PBRP_tree_j2xlte.git j2xlte/
 cd ~/PBRP
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-export LC_ALL="C"
+export LC_ALL=C
 lunch omni_j2xlte-eng
 mka recoveryimage
 ```
