@@ -2,10 +2,6 @@
 This minimal device tree is all you need to compile Pitch Black Recovery Project for yourself! Please credit me (@NullCode on XDA) and all the appropriate people if you use it in one of your builds. 
 
 ## Bugs
-Touch is buggy [kernel side bug]
-
-Lag [due to low RAM]
-
 Flashlight does not work
 
 Aroma FM crashes everything [Use normal FM in "Advanced"]
