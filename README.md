@@ -1,13 +1,6 @@
 # PBRP For the Galaxy J2 2016
 Device configuration for compiling Pitch Black Recovery Project by yourself. Please credit me (@NullCode on XDA) and all the appropriate people if you use it in one of your builds. 
 
-## Fixed Bugs
-Touch is a bit glitchy (fixed*)
-
-Lag (fixed)
-
-Aroma FM crashes everything (fixed)
-
 ## Known Bugs
 Flashlight does not work
 
