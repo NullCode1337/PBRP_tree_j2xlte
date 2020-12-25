@@ -47,7 +47,7 @@ cd samsung
 ```
 6: Now git clone my repository:
 ```bash
-git clone https://github.com/Ishaq06/PBRP_tree_j2xlte.git j2xlte/
+git clone https://github.com/NullCode13/PBRP_tree_j2xlte.git j2xlte/
 ```
 
 7: Now close that terminal and open a fresh terminal [This is real talk, because we will start building. Pay attention]
