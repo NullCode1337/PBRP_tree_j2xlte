@@ -1,10 +1,17 @@
 # PBRP For the Galaxy J2 2016
-This minimal device tree is all you need to compile Pitch Black Recovery Project for yourself! Please credit me (@NullCode on XDA) and all the appropriate people if you use it in one of your builds. 
+Device configuration for compiling Pitch Black Recovery Project by yourself. Please credit me (@NullCode on XDA) and all the appropriate people if you use it in one of your builds. 
 
-## Bugs
+## Fixed Bugs
+Touch is a bit glitchy (fixed*)
+
+Lag (fixed)
+
+Aroma FM crashes everything (fixed)
+
+## Known Bugs
 Flashlight does not work
 
-Aroma FM crashes everything [Use normal FM in "Advanced"]
+MTP does not work
 
 ## Instructions
 To use this tree for compiling PBRP, do the following: 
@@ -17,7 +24,7 @@ git config --global user.email "MY_NAME@example.com"
 ```
 * Install the required packages:
 ```bash
-sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig python-2.7 python 3.9 python-is-python2
+sudo apt-get python-is-python2 install git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig python-2.7 python 3.9 python-is-python2
 ```
 
 Now follow this: 
@@ -32,7 +39,7 @@ cd ~/PBRP
 3: repo sync the PBRP-6.0 sources:
 ```bash
 repo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-6.0
-repo sync --no-clone-bundle
+repo sync --current-branch --no-clone-bundle --force-sync
 ```
 4: Once done open the folder where you synced the sources
 ```bash
