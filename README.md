@@ -24,7 +24,7 @@ git config --global user.email "MY_NAME@example.com"
 ```
 * Install the required packages:
 ```bash
-sudo apt-get python-is-python2 install git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig python-2.7 python 3.9 python-is-python2
+sudo apt-get install python-is-python2 rsync git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig python-2.7 python 3.9 python-is-python2
 ```
 
 Now follow this: 
@@ -81,7 +81,7 @@ SebaUbuntu (For his amazing Baseline Tree generator which I modified)
 ME (For obvious reasons)
 
 
-djeman on Github (because I stole some of his j3xnlte BoardConfig props)
+Aditya KR on XDA (because I st- took some BoardConfig props)
 
 
 And of course, Pitch Black Recovery Project Team for building this amazing project.
